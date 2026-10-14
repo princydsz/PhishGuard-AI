@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions & build artifacts
+*.so
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets
+.env
+.env.*
+*.env
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*secret*.json
+credentials.json
+
+# Serialized ML model binaries (can be regenerated with: python train_models.py)
+models/*.joblib
+*.joblib
+
+# Streamlit config / cache
+.streamlit/secrets.toml
+.streamlit/*.local
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store
+ehthumbs.db
+
+# Pytest / coverage / testing
+.pytest_cache/
+.coverage
+htmlcov/
+.hypothesis/

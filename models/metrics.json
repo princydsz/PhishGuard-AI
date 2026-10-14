@@ -1,0 +1,61 @@
+{
+  "email_model": {
+    "accuracy": 0.7,
+    "precision": 0.6667,
+    "recall": 0.8,
+    "f1_score": 0.7273,
+    "confusion_matrix": [
+      [
+        3,
+        2
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "test_sample_count": 10,
+    "train_sample_count": 20
+  },
+  "url_model": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "confusion_matrix": [
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "feature_importances": {
+      "url_length": 0.0663,
+      "host_length": 0.0695,
+      "is_ip_hostname": 0.0271,
+      "uses_https": 0.3289,
+      "has_at_symbol": 0.0,
+      "has_double_slash_redirect": 0.0,
+      "count_dots": 0.0042,
+      "count_hyphens": 0.082,
+      "count_underscores": 0.0016,
+      "digit_ratio": 0.0384,
+      "subdomain_count": 0.0052,
+      "is_suspicious_tld": 0.0226,
+      "is_shortener": 0.0036,
+      "keyword_count": 0.1631,
+      "url_entropy": 0.0905,
+      "host_entropy": 0.0967
+    },
+    "test_sample_count": 10,
+    "train_sample_count": 20
+  },
+  "metadata": {
+    "evaluation_split": "Holdout Test Set (33%)",
+    "evaluation_method": "Stratified Test Split",
+    "training_date": "2026-10-12"
+  }
+}
